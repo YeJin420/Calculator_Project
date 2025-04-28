@@ -24,7 +24,7 @@ public class MainCalculator {
 
             //결과 출력
             if (result != -1) {
-                System.out.println("결과 " + result);
+                System.out.println("결과 : " + result);
 
             }
 
@@ -42,6 +42,7 @@ public class MainCalculator {
             }
 
             // 계속 할건지에 대한 코드
+
             System.out.println("계속 하시겠습니까? (Y/N) : ");
             String answer = scanner.nextLine();
             if (answer.equals("N")) {
